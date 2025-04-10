@@ -350,6 +350,17 @@
           thumbnail: `${baseUrl}14.jpg`,
           name: 'Entrada Piso',
           caption: 'Entrada MegaFitness Gym',
+          markers: [
+    {
+      id: 'marker-image-nodo2',
+      imageLayer: '../mancuerna.png',  // Ruta a tu imagen (puede ser relativa)
+      position: { yaw: 1.5, pitch: 0 },  // Ajusta los valores según donde lo quieras posicionar
+      size: { width: 602, height: 522 },     // Tamaño del marker
+      // anchor y rotation se pueden agregar si es necesario, por ejemplo:
+      // anchor: { x: 0.5, y: 0.5 },
+      // rotation: 45
+    }
+  ],
           links: [
             { nodeId: 'nodo13', position: { yaw: 6.075715783240273, pitch: -0.28135639749896635 } },
             { nodeId: 'nodo16', position: { yaw: 4.755002329887734, pitch: -0.17221300343289458 } }
